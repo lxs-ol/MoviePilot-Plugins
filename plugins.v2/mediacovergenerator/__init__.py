@@ -4252,22 +4252,22 @@ class MediaCoverGenerator(_PluginBase):
             self._zh_font_preset = "chaohei"
 
         default_font_url = {
-            "chaohei": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/chaohei.ttf",
-            "yasong": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/yasong.ttf",
-            "EmblemaOne": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/EmblemaOne.woff2",
-            "Melete": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/Melete.otf",
-            "Phosphate": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/phosphate.ttf",
-            "JosefinSans": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/josefinsans.woff2",
-            "LilitaOne": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/lilitaone.woff2",
-            "Monoton": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/Monoton.woff2",
-            "Plaster": "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/Plaster.woff2",
+            "chaohei": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/chaohei.ttf",
+            "yasong": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/yasong.ttf",
+            "EmblemaOne": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/EmblemaOne.woff2",
+            "Melete": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/Melete.otf",
+            "Phosphate": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/phosphate.ttf",
+            "JosefinSans": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/josefinsans.woff2",
+            "LilitaOne": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/lilitaone.woff2",
+            "Monoton": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/Monoton.woff2",
+            "Plaster": "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/Plaster.woff2",
         }
-        default_zh_url = default_font_url.get(self._zh_font_preset, "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/chaohei.ttf")
+        default_zh_url = default_font_url.get(self._zh_font_preset, "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/chaohei.ttf")
 
         if not self._en_font_preset:
             self._en_font_preset = "EmblemaOne"
 
-        default_en_url = default_font_url.get(self._en_font_preset, "https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/fonts/EmblemaOne.woff2")
+        default_en_url = default_font_url.get(self._en_font_preset, "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/fonts/EmblemaOne.woff2")
         
         log_prefix = "默认"
         zh_custom_type = detect_string_type(self._zh_font_custom)
