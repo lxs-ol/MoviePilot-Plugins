@@ -2596,7 +2596,7 @@ class MediaCoverGenerator(_PluginBase):
     @staticmethod
     def __style_preview_src(index: int) -> str:
         safe_index = max(1, min(4, int(index)))
-        return f"https://raw.githubusercontent.com/justzerock/MoviePilot-Plugins/main/images/style_{safe_index}.jpeg"
+        return f"https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/images/style_{safe_index}.jpeg"
 
     def __get_recent_generated_covers(self, limit: int = 20) -> List[Dict[str, Any]]:
         items: List[Dict[str, Any]] = []
