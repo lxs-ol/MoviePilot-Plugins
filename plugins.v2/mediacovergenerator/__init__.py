@@ -54,7 +54,7 @@ class MediaCoverGenerator(_PluginBase):
     # 插件图标
     plugin_icon = "https://raw.githubusercontent.com/lxs-ol/MoviePilot-Plugins/main/icons/emby.png"
     # 插件版本
-    plugin_version = "0.9.6"
+    plugin_version = "0.9.7"
     # 插件作者
     plugin_author = "lxsol"
     # 作者主页
